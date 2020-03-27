@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tic Tac Toe </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- <script src="js/script.js" defer></script> -->
+  <script src="js/script.js" defer></script>
+  <script src="js/ai.js" defer></script>
+  <link rel="shortcut icon" type="image/png" href="img/TTT.png">
+</head>
+<body>
+    <div class="options" id="options">
+        <h1>Choose a Sign</h1>
+        <button class="x1" id="x1Button">X</button>
+        <button class="o" id="oButton">O</button>
+        <button class="play" id="playButton">Play</button>
+    </div>
+    <div class="player1" id="player1">
+      <h1>Player 1</h1>
+    </div>
+    <div class="player2" id="player2">
+      <h1>Player 2</h1>
+    </div>
+  <div class="board" id="board">
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+  </div>
+  <div class="home" id="homeid">
+    <button class="btn" id="homeButton"><i class="fa fa-home"></i> 
+    </button>
+  </div>
+  <div class="winning-message" id="winningMessage">
+    <div data-winning-message-text></div>
+    <button id="restartButton">Restart</button>
+  </div>
+</body>
+</html>
